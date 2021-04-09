@@ -32,7 +32,7 @@ const Container = styled.div`
 const Button = styled.button`
   border-radius: 30px;
   padding: 25px 15px;
-  background-color: ${props => props.theme.successColor};
+  background-color: ${(props) => props.theme.successColor};
 `;
 
 class App extends Component {
